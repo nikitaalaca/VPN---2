@@ -15,8 +15,11 @@ from db import (
 
 from keep_alive import keep_alive  # Защита от сна Replit
 
-API_TOKEN = "7225465758:AAHeqZWH1zzPQ9tjIqKviRtLk3x7kYaQzZU"
+import os
+API_TOKEN = os.getenv("API_TOKEN")
 MAIN_ADMIN_ID = 1467435264
+import os
+ADMIN_ID = os.getenv("MAIN_ADMIN_ID")
 
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
