@@ -17,7 +17,6 @@ from keep_alive import keep_alive  # Защита от сна Replit
 
 import os
 API_TOKEN = os.getenv("API_TOKEN")
-MAIN_ADMIN_ID = 1467435264
 import os
 ADMIN_ID = os.getenv("MAIN_ADMIN_ID")
 
