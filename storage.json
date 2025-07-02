@@ -1,0 +1,14 @@
+{
+    "users": {
+        "8039752374": {
+            "username": "\u0431\u0435\u0437 username",
+            "used_trial": true,
+            "subscription_until": "2025-07-05 19:59:40",
+            "key": "vless://8039752374@vpn.example.com:443?encryption=none&security=tls&type=grpc&serviceName=vpn#TestVPN"
+        }
+    },
+    "admins": [
+        1467435264
+    ],
+    "moderators": []
+}
